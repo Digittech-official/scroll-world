@@ -43,12 +43,6 @@
   var mem = $("#memberships");
   if (mem) mem.innerHTML = S.memberships.map(function (m) { return "<li>" + esc(m) + "</li>"; }).join("");
 
-  // Portrait: show the photo if one exists, otherwise keep the monogram.
-  var img = $("#doctorPhoto");
-  if (img) {
-    img.onload = function () { img.hidden = false; $("#monogram").hidden = true; };
-    img.src = D.photo;
-  }
 
   /* ---------- nav ---------- */
   var nav = $("#nav"), toggle = $("#navToggle"), links = $("#navLinks");

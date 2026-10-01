@@ -72,7 +72,9 @@ main, .footer { position: relative; z-index: 2; }
   font: 600 15px var(--serif); color: #032;
   background: conic-gradient(from 200deg, var(--teal), #9ff3e6, var(--gold), var(--teal));
   box-shadow: 0 0 24px rgba(63, 209, 194, .45);
+  padding: 2px; overflow: hidden; flex: none;
 }
+.brand-mark img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; display: block; }
 .brand-text { display: flex; flex-direction: column; line-height: 1.15; }
 .brand-text strong { font-family: var(--serif); font-size: 1.05rem; }
 .brand-text small { color: var(--muted); font-size: .75rem; letter-spacing: .04em; }
@@ -149,7 +151,7 @@ main, .footer { position: relative; z-index: 2; }
   box-shadow: var(--shadow), inset 0 0 80px rgba(63, 209, 194, .15);
   backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
 }
-.portrait-frame img { width: 100%; height: 100%; object-fit: cover; }
+.portrait-frame img { width: 100%; height: 100%; object-fit: cover; object-position: 45% 20%; }
 .monogram { width: 100%; height: 100%; display: grid; place-items: center; }
 .monogram span { font: 400 clamp(5rem, 12vw, 8rem) var(--serif); background: linear-gradient(160deg, #e9fffb, var(--teal) 60%, var(--gold)); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .portrait-badge { position: absolute; right: -10px; bottom: 30px; background: var(--ink); color: var(--bg); border-radius: 16px; padding: 12px 18px; display: flex; flex-direction: column; box-shadow: var(--shadow); }
