@@ -1,0 +1,49 @@
+# Decap CMS — lets Dr. Roy publish a morning note from any phone or laptop.
+# Default backend: Netlify Identity + Git Gateway (see README → "Publishing the daily blog").
+# To use GitHub login instead, replace the backend block with:
+#   backend:
+#     name: github
+#     repo: <owner>/<repo>
+#     branch: main
+backend:
+  name: git-gateway
+  branch: main
+
+# Uncomment to try the editor locally with `npx decap-server` (no login needed).
+# local_backend: true
+
+site_url: /
+display_url: /
+logo_url: /assets/favicon.svg
+media_folder: "assets/blog"
+public_folder: "/assets/blog"
+
+collections:
+  - name: notes
+    label: "Morning notes"
+    editor:
+      preview: false
+    files:
+      - name: posts
+        label: "All notes"
+        file: "blog/posts.json"
+        fields:
+          - name: posts
+            label: "Notes"
+            label_singular: "note"
+            widget: list
+            add_to_top: true
+            summary: "{{fields.date}} — {{fields.title}}"
+            fields:
+              - { name: title, label: "Title", widget: string }
+              - { name: slug, label: "Web address (short, lowercase, use-dashes)", widget: string, pattern: ['^[a-z0-9-]+$', "Only lowercase letters, numbers and dashes"] }
+              - { name: date, label: "Date", widget: datetime, format: "YYYY-MM-DD", date_format: "DD MMM YYYY", time_format: false }
+              - name: category
+                label: "Topic"
+                widget: select
+                options: ["Diabetes", "Thyroid", "Kidney Health", "Heart & BP", "Diet & Lifestyle", "Women's Health", "General Medicine", "Health Camp", "Clinic News"]
+              - { name: summary, label: "One-line summary", widget: text }
+              - { name: cover, label: "Cover photo (optional)", widget: image, required: false }
+              - { name: body, label: "Note", widget: markdown }
+              - { name: author, label: "Author", widget: hidden, default: "Dr. Ritam Roy" }
+              - { name: draft, label: "Save as draft (hide from website)", widget: boolean, default: false, required: false }

@@ -1,0 +1,37 @@
+{
+  "posts": [
+    {
+      "slug": "five-morning-habits-for-steady-sugar",
+      "title": "Five morning habits for steadier blood sugar",
+      "date": "2026-10-01",
+      "category": "Diabetes",
+      "author": "Dr. Ritam Roy",
+      "cover": "",
+      "draft": false,
+      "summary": "How you spend the first hour of the day shapes your sugar for the next twelve. Five simple habits that help.",
+      "body": "Most of my patients ask about *what* to eat. Fewer ask about *when* and *how* — yet the first hour of the morning sets the tone for the whole day.\n\n## 1. Check, don't guess\nIf you use a glucometer, test your **fasting sugar** a few days a week before tea or breakfast. Write it down. A log of real numbers helps me adjust your medicines far more safely than a single reading at the chamber.\n\n## 2. Take medicines at a fixed time\nMetformin, insulin and other medicines work best on a routine. Keep them next to your toothbrush or tea cups so you never miss them.\n\n## 3. Walk before the day gets busy\nEven **15–20 minutes of brisk walking** improves how your body handles sugar for hours afterwards. A walk after dinner helps too.\n\n## 4. Build a balanced breakfast\nInstead of only *muri*, white bread or biscuits, add protein and fibre:\n- a boiled egg or a bowl of dal-chilla\n- sprouts or a small bowl of curd\n- a whole fruit (guava, apple, orange) rather than juice\n\n## 5. Go easy on sugar in tea\nCut it by half this week and by half again next week. Your taste adjusts within a fortnight.\n\n> Small changes, done every day, beat big changes done for a week.\n\nIf your fasting sugar stays above **130 mg/dL** on most days, please book a review — your treatment may need fine-tuning."
+    },
+    {
+      "slug": "thyroid-tablet-right-way",
+      "title": "Are you taking your thyroid tablet the right way?",
+      "date": "2026-09-30",
+      "category": "Thyroid",
+      "author": "Dr. Ritam Roy",
+      "cover": "",
+      "draft": false,
+      "summary": "Levothyroxine is one of the simplest medicines to take — and one of the easiest to take wrongly.",
+      "body": "Many patients with hypothyroidism keep getting abnormal TSH reports even though they \"never miss a tablet\". Very often the problem is *how* the tablet is taken.\n\n## The basics\n- Take it **first thing in the morning on an empty stomach**, with plain water.\n- Wait **30–60 minutes** before tea, coffee or breakfast.\n- Keep **calcium, iron and antacid** tablets at least **4 hours** apart.\n\n## When to recheck TSH\nAfter any dose change, test TSH after **6–8 weeks**. Once stable, a yearly test is usually enough — unless you are pregnant or planning pregnancy, when it needs closer monitoring.\n\n## Never stop on your own\nFeeling better is a sign the tablet is working, not that you no longer need it. Always discuss before changing the dose.\n\nBring your last two thyroid reports to your next visit."
+    },
+    {
+      "slug": "diabetes-and-your-kidneys",
+      "title": "Diabetes and your kidneys: two tests that matter",
+      "date": "2026-09-29",
+      "category": "Kidney Health",
+      "author": "Dr. Ritam Roy",
+      "cover": "",
+      "draft": false,
+      "summary": "Kidney damage from diabetes is silent for years. Two inexpensive tests catch it early.",
+      "body": "Diabetic kidney disease causes **no symptoms** in its early stages. By the time swelling of the feet or breathlessness appears, much damage is already done. The good news: two simple tests can pick it up years earlier.\n\n## 1. Urine ACR (albumin-creatinine ratio)\nA spot urine test that detects tiny amounts of protein leaking through the kidneys. An ACR above **30 mg/g** on repeat testing is an early warning sign.\n\n## 2. Serum creatinine with eGFR\nA blood test that estimates how well your kidneys filter. Your report will show an **eGFR** value; below 60 needs attention.\n\n## How often?\nEveryone with diabetes should do both tests **at least once a year** — more often if they are abnormal or if you also have high blood pressure.\n\n## What protects the kidneys\n- Good sugar control (HbA1c target agreed with your doctor)\n- Blood pressure below **130/80** for most patients\n- Avoiding painkillers like diclofenac and ibuprofen without advice\n- Not smoking\n\nSeveral modern diabetes medicines also protect the kidneys. Ask me whether they suit you."
+    }
+  ]
+}

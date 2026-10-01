@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Morning Notes — Dr. Ritam Roy</title>
+  <meta name="description" content="Daily health notes from Dr. Ritam Roy, physician and diabetologist — diabetes, diet, thyroid and family health in plain language.">
+  <meta name="theme-color" content="#061521">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="world-fallback" aria-hidden="true"></div>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav scrolled" id="nav">
+    <a class="brand" href="index.html" aria-label="Dr. Ritam Roy — home">
+      <span class="brand-mark">RR</span>
+      <span class="brand-text"><strong>Dr. Ritam Roy</strong><small>Physician &amp; Diabetologist</small></span>
+    </a>
+    <nav class="nav-links" id="navLinks" aria-label="Primary">
+      <a href="index.html#about">About</a>
+      <a href="index.html#care">Care</a>
+      <a href="index.html#chambers">Chambers</a>
+      <a href="blog.html" class="active">Blog</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <a class="btn btn-primary nav-cta" href="index.html#book">Book appointment</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks"><span></span><span></span></button>
+  </header>
+
+  <main id="main" class="page">
+    <div class="wrap" id="listView">
+      <header class="section-head">
+        <p class="eyebrow">Morning notes</p>
+        <h1 style="font-size:clamp(2.4rem,5vw,4rem)">A fresh health note,<br><em>every morning.</em></h1>
+        <p>Short, practical advice from Dr. Ritam Roy on diabetes, diet, thyroid and family health.</p>
+      </header>
+      <div class="blog-tools">
+        <input type="search" id="q" placeholder="Search notes…" aria-label="Search notes">
+        <div class="filters" id="filters" role="toolbar" aria-label="Filter by topic"></div>
+      </div>
+      <div class="posts" id="postList"><p class="muted">Loading…</p></div>
+    </div>
+
+    <article class="wrap article" id="articleView" hidden>
+      <p><a href="blog.html">← All notes</a></p>
+      <div class="post-meta" id="aMeta"></div>
+      <h1 id="aTitle"></h1>
+      <p class="lede" id="aSummary"></p>
+      <div class="post-cover" id="aCover"></div>
+      <div class="prose" id="aBody"></div>
+      <div class="share" id="aShare"></div>
+      <div class="panel author-box">
+        <span class="brand-mark">RR</span>
+        <div>
+          <strong>Dr. Ritam Roy</strong>
+          <p class="small muted" style="margin:0">MBBS, MD (IPGMER &amp; SSKM) · Consultant Physician &amp; Diabetologist, Kanchrapara</p>
+        </div>
+        <a class="btn btn-primary" href="index.html#book" style="margin-left:auto">Book appointment</a>
+      </div>
+      <p class="small muted" style="margin-top:24px">This note is for general awareness and is not a substitute for a personal consultation.</p>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <p>© <span id="year"></span> Dr. Ritam Roy · Physician &amp; Diabetologist · Kanchrapara, West Bengal</p>
+    </div>
+  </footer>
+
+  <script src="js/vendor/marked.min.js"></script>
+  <script src="js/vendor/purify.min.js"></script>
+  <script src="js/site-data.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/blog.js"></script>
+</body>
+</html>
